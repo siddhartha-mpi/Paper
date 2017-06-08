@@ -1,0 +1,193 @@
+\documentclass[twocolumn,aps,showpacs,superscriptaddress,longbibliography]{revtex4-1}
+%\documentclass[preprint,aps,showpacs,superscriptaddress,longbibliography]{revtex4-1}
+
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage[caption=false]{subfig}
+\usepackage{float}
+\usepackage{times}
+%\usepackage{pdfpages}
+\usepackage{todonotes}
+\hypersetup{
+%  colorlinks=false,
+  colorlinks=true,
+  citecolor=blue,
+  linkcolor=blue,
+  urlcolor=blue}
+
+
+\begin{document}
+
+\title{Correlation effects in enhanced-ionization of diatomic molecules :
+       A three-dimensional time-dependent generalized-active-space 
+       configuration-interaction study}
+
+\author{S.~Chattopadhyay}
+\affiliation{Department of Physics and Astronomy,
+             Aarhus University, DK-8000 Aarhus C, Denmark}
+%\email{siddhartha.chattopadhyay@mpi-hd.mpg.de}
+%\affiliation{Max-Planck-Institut f\"ur Kernphysik,
+%             Saupfercheckweg 1, D-69117 Heidelberg, Germany}
+\author{H.~R.~Larsson}
+\affiliation{Institut f\"ur Physikalische Chemie, 
+             Christian-Albrechts-Universit\"at zu Kiel, D-24098 Kiel, Germany}
+\author{L.~K.~S{\o}rensen}
+\affiliation{Department of Chemistry-{\AA}ngstr\"om Laboratory, 
+             Uppsala University, SE-75120 Uppsala, Sweden}
+\author{S.~Bauch}
+\affiliation{Institut f\"ur Theoretische Physik und Astrophysik,
+             Christian-Albrechts-Universit\"at zu Kiel, D-24098 Kiel, Germany}
+\author{L.~B.~Madsen}
+\affiliation{Department of Physics and Astronomy,
+             Aarhus University, DK-8000 Aarhus C, Denmark}
+
+
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                                  Abstract                                             %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+\end{abstract}
+
+%\pacs{31.15.-p, 32.80.Fb, 33.80.Eh, 42.50.Hz}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                              Section: Introduction                                    %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                                  Section: Theory                                      %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Theory}
+\label{theory}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                                  Section: Numerical examples                          %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Correlation effects in enhanced ionization}
+\label{numerical_ex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                   Subsection: Two electron H_2 molecule                               %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Two-electron $\mathrm{H}_2$ molecule}
+\label{h2}
+\begin{figure}
+ \includegraphics[width=\columnwidth]{./plots/H2-GS}
+ \caption{(color online). Ground-state energy of the  $\mathrm{H}_2$-molecule from Imaginary time
+           propagation.
+           In the lower inset we enlarge a small region around the equilibrium inter-nuclear separation
+           to demonstrate the convergence of different GAS methods.
+           CAS$^*(2,3)$ represents the TD-GASCI calculation with three active orbitals in the GAS.
+           Similarly  CAS$^*(2,12)$ represents the TD-GASCI calculation with twelve active orbitals
+           in the GAS.}
+ \label{fig:H2-binding}
+\end{figure}
+
+\begin{figure}
+ \includegraphics[width=\columnwidth]{./plots/H2-comp}
+ \caption{(color online). Total ground-state energy of the 2-electron $\mathrm{H}_2$-like molecule.
+           The upper inset shows that the SAE and the CIS approximations overlap with the HF result.
+           In the lower inset we enlarge a small region around the equilibrium inter-nuclear separation
+           to demonstrate the convergence of different GAS methods.
+           CAS$^*(2,3)$ represents the TD-GASCI calculation with three active orbitals in the GAS.
+           Similarly  CAS$^*(2,12)$ represents the TD-GASCI calculation with twelve active orbitals
+           in the GAS.}
+ \label{fig:H2-comparison}
+\end{figure}
+
+\begin{figure}
+ \includegraphics[width=\columnwidth]{./plots/H2-EI-053}
+ \caption{(color online). Total ground-state energy of the 2-electron $\mathrm{H}_2$-like molecule.
+           The upper inset shows that the SAE and the CIS approximations overlap with the HF result.
+           In the lower inset we enlarge a small region around the equilibrium inter-nuclear separation
+           to demonstrate the convergence of different GAS methods.
+           CAS$^*(2,3)$ represents the TD-GASCI calculation with three active orbitals in the GAS.
+           Similarly  CAS$^*(2,12)$ represents the TD-GASCI calculation with twelve active orbitals
+           in the GAS.}
+ \label{fig:H2-CAS}
+\end{figure}
+
+
+\begin{figure}
+    \includegraphics[width=\columnwidth]{./plots/H2-ES-1}
+    \caption{Field-free ground state and the three lowest lying excited states of model-$\mathrm{H}_2$ :
+             (a) comparison between the CAS$^*(2,2)$ and CAS$^*(2,3)$ models,
+             (b) comparison between the CAS$^*(2,3)$ and CAS$^*(2,6)$ models.
+              The CAS$^*(2,3)$ model energies overlap with CAS$^*(2,6)$ model energies.
+              The $i$-in the notation CAS$^*(2,N)$-$i$ labels the state starting with $i = 1$ for
+              the ground state.}
+     \label{fig:H2-es}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\columnwidth]{./plots/H2-ES-2}
+    \caption{Field-free ground state and the three lowest lying excited states of model-$\mathrm{H}_2$ :
+             (a) comparison between the CAS$^*(2,2)$ and CAS$^*(2,3)$ models,
+             (b) comparison between the CAS$^*(2,3)$ and CAS$^*(2,6)$ models.
+              The CAS$^*(2,3)$ model energies overlap with CAS$^*(2,6)$ model energies.
+              The $i$-in the notation CAS$^*(2,N)$-$i$ labels the state starting with $i = 1$ for
+              the ground state.}
+     \label{fig:H2-es}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                        Subsection: Four electron LiH molecule                         %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Four-electron $\mathrm{LiH}$ molecule}
+\label{lih}
+\begin{figure}
+ \includegraphics[width=\columnwidth]{./plots/LiH-EI-CAS}
+ \caption{(color online). Total ground-state energy of the $\mathrm{H}_2$ molecule.
+           to demonstrate the convergence of different GAS methods.
+           CAS$^*(2,3)$ represents the TD-GASCI calculation with three active orbitals in the GAS.
+           Similarly  CAS$^*(2,12)$ represents the TD-GASCI calculation with twelve active orbitals
+           in the GAS.}
+ \label{fig:H2-CAS}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%                        Subsection: Ten electron HF molecule                           %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{$\mathrm{HF}$ molecule}
+\label{hf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%                        Section: Conclusion                                      %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary and Conclusion}
+\label{conc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                               Acknowledgements                           %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgments}
+This work was supported by the ERC-StG (Project No. 277767-TDMET), the VKR center of excellence, 
+QUSCOPE, and the BMBF in the frame of the ``Verbundprojekt FSP 302''
+
+\end{acknowledgments}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                                 References                                %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{references}{}
+
+
+\end{document}
